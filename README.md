@@ -50,7 +50,7 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
     - To use this strategy, follow the instructions in the README and execute the provided Python script.
     - Adjust parameters as needed to suit your trading preferences.
   - **Example Visualization:**
-    - ![SMA Strategy Example](strategies/SMA/sma_strategy_examples.png)
+    - ![SMA Strategy Example](strategies/SMA/sma_strategy_example.png)
   - **Backtesting:**
     - Refer to the `backtesting/` directory for scripts evaluating the performance of this strategy.
   - **Results:**
