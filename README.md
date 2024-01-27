@@ -36,6 +36,25 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - **TrendFollowing/**: Implements a trend-following trading strategy.
   - `README.md`: Comprehensive overview of the strategy.
   - `trend_following.py`: Python script for the strategy.
+- **SMA (Simple Moving Average) Strategy:**
+  - **Overview:**
+    - This strategy is based on Simple Moving Average (SMA) crossovers, aiming to generate buy and sell signals.
+  - **Parameters:**
+    - Adjustable parameters include the window size for SMA calculations.
+  - **Logic:**
+    - Buy Signal: Generated when the 30-day SMA crosses above the 100-day SMA.
+    - Sell Signal: Generated when the 30-day SMA crosses below the 100-day SMA.
+  - **Code:**
+    - [`sma_script.py`](strategies/SMA/sma_script.py): Python script containing the strategy code.
+  - **Usage:**
+    - To use this strategy, follow the instructions in the README and execute the provided Python script.
+    - Adjust parameters as needed to suit your trading preferences.
+  - **Example Visualization:**
+    - ![SMA Strategy Example](strategies/SMA/sma_strategy_examples.png)
+  - **Backtesting:**
+    - Refer to the `backtesting/` directory for scripts evaluating the performance of this strategy.
+  - **Results:**
+    - Visualizations and performance metrics for this strategy can be found in the `results/` directory.
 
 ### 6. Backtesting:
 
