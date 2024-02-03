@@ -52,10 +52,11 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
   - [`README.md`](strategies/SMA/README.md): Comprehensive overview of the strategy.
   - [`sma_script.py`](strategies/SMA/sma_script.py): Python script containing the strategy.
     
-### 6. ML Predication Models:
+## 6. ML Predication Models:
   
 
 ### 7. Backtesting:
+
 
 - The `backtesting/` directory contains scripts for evaluating the performance of each strategy.
 - Detailed instructions on running backtests are provided in the README.
@@ -79,7 +80,7 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 
 - This project is licensed under the MIT License. See the LICENSE.md file for details.
 
-### 11. Acknowledgments:
+### 12. Acknowledgments:
 
 - Gratitude to the open-source community and contributors.
 - Acknowledgments to external libraries and data sources used in the project.
