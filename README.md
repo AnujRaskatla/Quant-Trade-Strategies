@@ -54,7 +54,7 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
   - `trend_following.py`: Python script for the strategy.
     
 - **SMA (Simple Moving Average):** based on SMA crossovers, aiming to generate buy and sell signals.
-  - [`README.md`](strategies/SMA/README.md): Comprehensive overview of the strategy.
+  - [`README.md`](strategies/SMA/ReadMe.md): Comprehensive overview of the strategy.
   - [`sma_script.py`](strategies/SMA/sma_script.py): Python script containing the strategy.
     
 ## 6. ML Prediction Models
