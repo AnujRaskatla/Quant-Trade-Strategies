@@ -5,13 +5,17 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 ## Table of Contents
 
 - [Overview](#1-overview)
-- [Usage](#usage)
-- [Data](#data)
-- [Features](#features)
-- [Model](#model)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Getting Started](#2-getting-started)
+- [Directory Structure](#3-directory-structure)
+- [Usage](#4-usage)
+- [Strategies](#5-strategies)
+- [ML Prediction Models](#6-ml-prediction-models)
+- [Backtesting](#7-backtesting)
+- [Results](#8-results)
+- [Dependencies](#9-dependencies)
+- [Contributing](#10-contributing)
+- [License](#11-license)
+- [Acknowledgments](#12-acknowledgments)
 
 ### 1. Overview
 
@@ -19,26 +23,27 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - Strategies are designed to leverage historical market data to make informed trading decisions.
 - Implemented in Python, the code is well-structured and documented for users to easily comprehend and adapt.
 
-### 2. Getting Started:
+### 2. Getting Started
 
 - To get started, clone this repository to your local machine.
+  
   ```bash
    git clone https://github.com/your-username/stock-price-prediction.git
 - Install dependencies by running `pip install -r requirements.txt`.
 - Follow the instructions in the README files of individual strategy directories.
 
-### 3. Directory Structure:
+### 3. Directory Structure
 
 - **data/**: Contains sample datasets and instructions on obtaining market data.
 - **strategies/**: Each subdirectory represents a different trading strategy.
 - **backtesting/**: Includes scripts for evaluating strategy performance.
   
-### 4. Usage:
+### 4. Usage
   1. Replace 'your_data.csv' in the script with the actual file path or URL of your historical stock price data.
   2. Run the script: 'your_strategy_script.py'
   3. View the model evaluation results and visualization in the console and generated plot.
 
-## 5. Strategies:
+## 5. Strategies
 
 - **MeanReversion/**: Implements a mean-reversion trading strategy.
   - `README.md`: Detailed explanation of the strategy, parameters, and logic.
@@ -52,16 +57,16 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
   - [`README.md`](strategies/SMA/README.md): Comprehensive overview of the strategy.
   - [`sma_script.py`](strategies/SMA/sma_script.py): Python script containing the strategy.
     
-## 6. ML Predication Models:
+## 6. ML Prediction Models
   
 
-### 7. Backtesting:
+### 7. Backtesting
 
 
 - The `backtesting/` directory contains scripts for evaluating the performance of each strategy.
 - Detailed instructions on running backtests are provided in the README.
 
-### 8. Results:
+### 8. Results
 
 - Visualizations and performance metrics for each strategy are available in this section.
 - Backtest results demonstrate the effectiveness of the implemented strategies.
