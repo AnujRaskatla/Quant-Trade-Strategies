@@ -1,4 +1,4 @@
-- **SMA (Simple Moving Average) Strategy:**
+# SMA (Simple Moving Average) Strategy:
   - **Overview:**
     - This strategy is based on Simple Moving Average (SMA) crossovers, aiming to generate buy and sell signals.
   - **Parameters:**
