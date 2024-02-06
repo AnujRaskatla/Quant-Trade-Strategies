@@ -40,8 +40,14 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
   
 ### 4. Usage
   1. Replace `your_data.csv` in the script with the actual file path or URL of your historical stock price data.
-  2. Run the script: `your_strategy_script.py`
-  3. View the model evaluation results and visualization in the console and generated plot.
+  2. The data should contain at least the following columns:
+
+    Date:                       Date of the stock price data.
+    Open, High, Low, Close:     Stock price details.
+    Volume:                     Trading volume.
+    Ensure that the 'Date' column is in datetime format. If not, convert it using pd.to_datetime().
+  3. Run the script: `your_strategy_script.py`
+  4. View the model evaluation results and visualization in the console and generated plot.
 
 ## 5. Strategies
 
