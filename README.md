@@ -28,19 +28,19 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - To get started, clone this repository to your local machine.
   
   ```bash
-   git clone https://github.com/your-username/stock-price-prediction.git
+   git clone https://github.com/AnujRaskatla/Quant-Trade-Strategies.git
 - Install dependencies by running `pip install -r requirements.txt`.
 - Follow the instructions in the README files of individual strategy directories.
 
 ### 3. Directory Structure
 
-- **data/**: Contains sample datasets and instructions on obtaining market data.
-- **strategies/**: Each subdirectory represents a different trading strategy.
-- **backtesting/**: Includes scripts for evaluating strategy performance.
+- [**data/**](data): Contains sample datasets and instructions on obtaining market data.
+- [**strategies/**](strategies): Each subdirectory represents a different trading strategy.
+- [**backtesting/**](backtesting): Includes scripts for evaluating strategy performance.
   
 ### 4. Usage
-  1. Replace 'your_data.csv' in the script with the actual file path or URL of your historical stock price data.
-  2. Run the script: 'your_strategy_script.py'
+  1. Replace `your_data.csv` in the script with the actual file path or URL of your historical stock price data.
+  2. Run the script: `your_strategy_script.py`
   3. View the model evaluation results and visualization in the console and generated plot.
 
 ## 5. Strategies
@@ -63,8 +63,8 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 ### 7. Backtesting
 
 
-- The `backtesting/` directory contains scripts for evaluating the performance of each strategy.
-- Detailed instructions on running backtests are provided in the README.
+- The [`backtesting/`](backtesting) directory contains scripts for evaluating the performance of each strategy.
+- Detailed instructions on running backtests are provided in the [`README.md`](backtesting/README.md).
 
 ### 8. Results
 
@@ -74,6 +74,9 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 ### 9. Dependencies:
 
 - Key dependencies include pandas, numpy, and matplotlib.
+```bash
+pip install pandas numpy matplotlib
+```
 - View the `requirements.txt` file for a complete list with version information.
 
 ### 10. Contributing:
