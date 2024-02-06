@@ -1,72 +1,30 @@
 # Stock Price Prediction using Random Forest Regressor
 
-This repository contains a Python script that utilizes a Random Forest Regressor to predict stock prices based on historical data. The script also includes data preprocessing, feature engineering, model training, evaluation, and visualization steps.
-
-
-
-
-Features
-The script performs the following steps:
-
-Data Preprocessing: Converts 'Date' column to datetime format and sets it as the index.
-
-Feature Engineering: Adds a simple moving average (SMA) with a window of 20 days.
-
-Train-Test Split: Splits the data into training and testing sets.
-
-Model Training: Utilizes a Random Forest Regressor with 100 estimators.
-
-Model Evaluation: Calculates the Mean Absolute Error (MAE) on the testing set.
-
-Visualization: Plots the actual and predicted stock prices.
-
-Model
-The script uses the Random Forest Regressor from scikit-learn with 100 estimators for predicting stock prices.
-
-Results
-The model's Mean Absolute Error (MAE) on the testing set is printed to the console. Additionally, a plot comparing actual and predicted stock prices is generated.
-
-
-
-
-
-
-
-
-
-
-
-- **Random Forest Regressor Model:**
   - **Overview:**
     - This Python script utilizes a Random Forest Regressor to predict stock prices based on historical data. The script also includes data preprocessing, feature engineering, model training, evaluation, and visualization steps.
   - **Features:**
-    -The script performs the following steps:
 
- 	-Data Preprocessing: 
-   - Converts the 'Date' column to datetime format and sets it as the index.
+    - The script performs the following steps:
 
-- Feature Engineering: 
-   - Adds a simple moving average (SMA) with a window of 20 days.
+ 		- ` Data Pre-Processing `: Converts the 'Date' column to datetime format and sets it as the index.
 
-- Train-Test Split: 
-   - Splits the data into training and testing sets.
+		- ` Feature Engineering `: Adds a simple moving average (SMA) with a window of 20 days.
 
-- Model Training: 
-   - Utilizes a Random Forest Regressor with 100 estimators.
+		- ` Train-Test Split `: Splits the data into training and testing sets.
 
-- Model Evaluation: 
-   - Calculates the Mean Absolute Error (MAE) on the testing set.
+		- ` Model Training `: Utilizes a Random Forest Regressor with 100 estimators.
 
-- Visualization: 
-   - Plots the actual and predicted stock prices.
+		- ` Model Evaluation `: Calculates the Mean Absolute Error (MAE) on the testing set.
+
+		- ` Visualization `: Plots the actual and predicted stock prices.
 
   - **Parameters:**
-    - n_estimators: The number of trees in the forest. In this script, it's set to 100.
-    - random_state: Controls the randomness of the estimator. It's set to 42 for reproducibility.
+    - `n_estimators`: The number of trees in the forest. In this script, it's set to 100.
+    - `random_state`: Controls the randomness of the estimator. It's set to 42 for reproducibility.
   - **Logic:**
-    - Buy Signal: A buy signal could be generated when the predicted stock price is expected to rise significantly compared to the current price. 
+    - `Buy Signal`: A buy signal could be generated when the predicted stock price is expected to rise significantly compared to the current price. 
 		-This might be inferred when the predicted price is consistently higher than the actual price.
-    - Sell Signal: Conversely, a sell signal could be triggered when the predicted stock price is expected to drop significantly compared to the current price. 
+    - `Sell Signal`: Conversely, a sell signal could be triggered when the predicted stock price is expected to drop significantly compared to the current price. 
 		-This might be indicated when the predicted price consistently falls below the actual price.
   - **Code:**
     - [`ML_script.py`](ML_script.py): Python script containing the strategy code.
