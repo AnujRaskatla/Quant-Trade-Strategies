@@ -27,14 +27,14 @@
     - `Sell Signal`: Conversely, a sell signal could be triggered when the predicted stock price is expected to drop significantly compared to the current price. 
 		-This might be indicated when the predicted price consistently falls below the actual price.
   - **Code:**
-    - [`ML_script.py`](ML_script.py): Python script containing the strategy code.
+    - [ML_script.py](ML_script.py): Python script containing the strategy code.
   - **Usage:**
     - To use this strategy, follow the instructions in the README and execute the provided Python script.
     - Adjust parameters as needed to suit your trading preferences.
   - **Example Visualization:**
     - ![ML_Visualization](ML_Visualization.png)
   - **Backtesting:**
-    - Refer to the `backtesting/` directory for scripts evaluating the performance of this strategy.
+    - Refer to the [backtesting/](backtesting/ML_Model) directory for scripts evaluating the performance of this strategy.
   - **Results:**
     - The model's Mean Absolute Error (MAE) on the testing set is printed to the console. Additionally, a plot comparing actual and predicted stock prices is generated.
 
