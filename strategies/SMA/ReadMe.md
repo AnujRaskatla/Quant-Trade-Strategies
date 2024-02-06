@@ -7,13 +7,13 @@
     - Buy Signal: Generated when the 30-day SMA crosses above the 100-day SMA.
     - Sell Signal: Generated when the 30-day SMA crosses below the 100-day SMA.
   - **Code:**
-    - [`sma_script.py`](sma_script.py): Python script containing the strategy code.
+    - [sma_script.py](sma_script.py): Python script containing the strategy code.
   - **Usage:**
     - To use this strategy, follow the instructions in the README and execute the provided Python script.
     - Adjust parameters as needed to suit your trading preferences.
   - **Example Visualization:**
     - ![SMA Strategy Example](sma_strategy_example.png)
   - **Backtesting:**
-    - Refer to the `backtesting/` directory for scripts evaluating the performance of this strategy.
+    - Refer to the [backtesting/](backtesting/SMA) directory for scripts evaluating the performance of this strategy.
   - **Results:**
     - Visualizations and performance metrics for this strategy can be found in the `results/` directory.
