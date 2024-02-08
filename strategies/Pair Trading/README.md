@@ -1,4 +1,4 @@
-# SMA (Simple Moving Average) Strategy:
+# Pair Trading Strategy using Z-Score:
   - **Overview:**
     - This Python script utilizes pairs trading strategy to identify potential trading opportunities between two stocks. Pairs trading involves identifying two stocks whose prices historically move together and then taking advantage of temporary divergences from their typical relationship.
   - **Parameters:**
@@ -6,24 +6,24 @@
 
     - `exit_threshold` : The z-score threshold at which trading positions are exited. When the z-score crosses this threshold, it indicates a potential exit point for trading.
   - **Logic:**
-    1. Load historical stock data from CSV files for two stocks (Stock A and Stock B).
-    2. Calculate the spread between Stock A and Stock B by taking the difference in their closing prices.
-    3. Compute the z-score of the spread to measure its deviation from the mean in terms of standard deviations.
-    4. Based on the defined entry and exit thresholds, generate trading signals:
-   	- If the z-score is above the entry threshold, initiate a short position on Stock A and a long position on Stock B.
-   	- If the z-score is below the negative entry threshold, initiate a long position on Stock A and a short position on Stock B.
-   	- Exit the positions when the z-score crosses the exit thresholds (positive or negative).
+    - Load historical stock data from CSV files for two stocks (Stock A and Stock B).
+    - Calculate the spread between Stock A and Stock B by taking the difference in their closing prices.
+    - Compute the z-score of the spread to measure its deviation from the mean in terms of standard deviations.
+    - Based on the defined entry and exit thresholds, generate trading signals:
+     	- If the z-score is above the entry threshold, initiate a short position on Stock A and a long position on Stock B.
+     	- If the z-score is below the negative entry threshold, initiate a long position on Stock A and a short position on Stock B.
+     	- Exit the positions when the z-score crosses the exit thresholds (positive or negative).
 
   - **Code:**
     - [pt.py](pt.py): Python script containing the strategy code.
   - **Usage:**
-    1. Ensure you have the necessary libraries installed: pandas, numpy, matplotlib, statsmodels.
-    2. Prepare CSV files containing historical stock data for Stock A and Stock B.
-    3. Modify the entry_threshold and exit_threshold parameters as needed.
-    4. Run the script, providing the correct paths to the CSV files for Stock A and Stock B.
-    5. Analyze the plotted stock prices, z-score, and trading signals to make trading decisions.
+    - Ensure you have the necessary libraries installed: pandas, numpy, matplotlib, statsmodels.
+    - Prepare CSV files containing historical stock data for Stock A and Stock B.
+    - Modify the entry_threshold and exit_threshold parameters as needed.
+    - Run the script, providing the correct paths to the CSV files for Stock A and Stock B.
+    - Analyze the plotted stock prices, z-score, and trading signals to make trading decisions.
   - **Example Visualization:**
-    - ![SMA Strategy Example](sma_strategy_example.png)
+    - ![pt visualization](pt_visualization.png)
   - **Backtesting:**
     - Refer to the [backtesting/](backtesting/SMA) directory for scripts evaluating the performance of this strategy.
   - **Results:**
