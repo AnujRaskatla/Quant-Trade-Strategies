@@ -62,6 +62,10 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - **SMA (Simple Moving Average):** based on SMA crossovers, aiming to generate buy and sell signals.
   - [README.md](strategies/SMA/ReadMe.md): Comprehensive overview of the strategy.
   - [sma_script.py](strategies/SMA/sma_script.py): Python script containing the strategy.
+  - 
+- **Pair Trading/**: based on z-score, aiming to generate buy and sell signals after threshold.
+  - [README.md](strategies/Pair_Trading/README.md): Comprehensive overview of the strategy.
+  - [pt.py](strategies/Pair_Trading/pt.py): Python script containing the strategy.
     
 ## 6. ML Prediction Models
   
