@@ -68,7 +68,9 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
   - [pt.py](strategies/Pair_Trading/pt.py): Python script containing the strategy.
     
 ## 6. ML Prediction Models
-  
+- **Random Forest Regressor Strategy/**: utilizes a Random Forest Regressor to predict stock prices based on historical data
+  - [README.md](strategies/ML_Model/README.md): Comprehensive overview of the strategy.
+  - [ML_script.py](strategies/ML_Model/ML_script.py): Python script containing the strategy.
 
 ### 7. Backtesting
 
