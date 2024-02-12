@@ -10,12 +10,13 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - [Usage](#4-usage)
 - [Strategies](#5-strategies)
 - [ML Prediction Models](#6-ml-prediction-models)
-- [Backtesting](#7-backtesting)
-- [Results](#8-results)
-- [Dependencies](#9-dependencies)
-- [Contributing](#10-contributing)
-- [License](#11-license)
-- [Acknowledgments](#12-acknowledgments)
+- [Options Strategies](#7-options-strategies)
+- [Backtesting](#8-backtesting)
+- [Results](#9-results)
+- [Dependencies](#10-dependencies)
+- [Contributing](#11-contributing)
+- [License](#12-license)
+- [Acknowledgments](#13-acknowledgments)
 
 ### 1. Overview
 
@@ -75,19 +76,24 @@ Welcome to the Quantitative Trading Strategies repository! This collection featu
 - **Random Forest Regressor Strategy/**: utilizes a Random Forest Regressor to predict stock prices based on historical data
   - [README.md](strategies/ML_Model/README.md): Comprehensive overview of the strategy.
   - [ML_script.py](strategies/ML_Model/ML_script.py): Python script containing the strategy.
+    
+## 7. Options Strategies
 
-### 7. Backtesting
+- **Covered Call Strategy/**: involves owning shares of a particular stock and selling call options against those shares.
+  - [README.md](Options_Strategies/Covered_Call_Strategy/README.md): Comprehensive overview of the strategy.
+  - [CC_script.py](Options_Strategies/Covered_Call_Strategy/CC_script.py): Python script containing the strategy.
 
+### 8. Backtesting
 
 - The [backtesting/](backtesting) directory contains scripts for evaluating the performance of each strategy.
 - Detailed instructions on running backtests are provided in the [README.md](backtesting/README.md).
 
-### 8. Results
+### 9. Results
 
 - Visualizations and performance metrics for each strategy are available in this section.
 - Backtest results demonstrate the effectiveness of the implemented strategies.
 
-### 9. Dependencies:
+### 10. Dependencies:
 
 - Key dependencies include pandas, numpy, and matplotlib.
 ```bash
@@ -95,16 +101,16 @@ pip install pandas numpy matplotlib
 ```
 - View the `requirements.txt` file for a complete list with version information.
 
-### 10. Contributing:
+### 11. Contributing:
 
 - Contributions are welcome! Please follow the guidelines outlined in the CONTRIBUTING.md file.
 - Submit issues, feature requests, or pull requests to contribute to the project's development.
 
-### 11. License:
+### 12. License:
 
 - This project is licensed under the MIT License. See the LICENSE.md file for details.
 
-### 12. Acknowledgments:
+### 13. Acknowledgments:
 
 - Gratitude to the open-source community and contributors.
 - Acknowledgments to external libraries and data sources used in the project.
